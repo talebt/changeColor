@@ -7,9 +7,9 @@ colorBtn.addEventListener('click',changeColor);
 
 function changeColor(){
 bodyBcg.style.backgroundColor=colors[2];
-// bodyBcg.style.backgroundColor=colors[3];
+bodyBcg.style.backgroundColor=colors[3];
 
-let random = Math.floor(Math.random()*colors.length)
+let random = Math.floor(Math.random() * colors.length)
 bodyBcg.style.backgroundColor=colors[random];
 
 
